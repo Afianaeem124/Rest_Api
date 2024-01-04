@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/getapi/example3.dart';
 import 'package:flutter_application_1/getapi/example4.dart';
 import 'package:flutter_application_1/getapi/examplefive.dart';
+import 'package:flutter_application_1/postapi/signup.dart';
+import 'package:flutter_application_1/postapi/upload_image.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: examplefive(),
+      home: UploadImage(),
     );
   }
 }
